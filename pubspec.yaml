@@ -8,7 +8,10 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  mineral: ^4.0.0-dev.5
+  mineral:
+    git:
+      url: https://github.com/mineral-dart/core.git
+      ref: develop
   redis: ^4.0.0
 
 dev_dependencies:
